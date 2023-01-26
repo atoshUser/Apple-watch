@@ -305,7 +305,7 @@ transition: opacity 0.3s ease;
   width: 400px;
   height: 600px;
   margin-left: auto;
-background-image: url(../img/img-runners.jpg);
+
 
 }
 
@@ -343,10 +343,7 @@ color:#fff;
   margin-bottom: 30px;
   border-left: 3px solid #fff;
 }
-.promo-button {
-}
-.runner-button {
-}
+
 
 /* RETINA 2X BG  */
 @media
@@ -356,5 +353,6 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
+
 
 }
