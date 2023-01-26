@@ -248,6 +248,106 @@ transition: width 0.4s ease ;
   width: 60px;
 }
 
+
+/* PROMO STYLES  */
+
+.site-promo {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.promo-wrapper {
+  display: flex;
+  align-items:center;
+}
+.promo-content {
+width: 100%;
+max-width: 490px;
+margin-right: 110px;
+}
+.promo-heading {
+  margin: 0;
+  font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+color: #000;
+margin-bottom: 30px;
+}
+.promo-text {
+margin: 0;
+font-weight: 400;
+font-size: 16px;
+padding-left: 37px;
+line-height: 24px;
+color:#777;
+margin-bottom: 30px;
+border-left: 3px solid #888;
+}
+
+
+.promo-button {
+  border: 3px solid transparent;
+padding: 12px 90px;
+background-color: #EA625C;
+color: #fff;
+text-transform: uppercase;
+border-radius: 15px;
+cursor: pointer;
+transition: opacity 0.3s ease;
+}
+
+.promo-button:hover{
+  opacity: 0.6;
+}
+
+.promo-img {
+  object-fit: contain;
+  width: 400px;
+  height: 600px;
+  margin-left: auto;
+background-image: url(../img/img-runners.jpg);
+
+}
+
+
+/* RUNNER SECTION  */
+
+.runners {
+padding-top: 240px;
+padding-bottom: 240px;
+  background-image:url(../img/img-runners.jpg);
+  background-repeat:no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position:center center;
+}
+
+.runner-content {
+  width: 100%;
+  max-width: 490px;
+margin-left: auto;
+}
+.runner-heading {
+  font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+margin-bottom: 30px;
+color:#fff;
+}
+.runner-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 37px;
+  color:#fff;
+  margin-bottom: 30px;
+  border-left: 3px solid #fff;
+}
+.promo-button {
+}
+.runner-button {
+}
+
 /* RETINA 2X BG  */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
